@@ -1,0 +1,9 @@
+D:\Study\WCF\MyDiskInfo\Client2\bin\Debug\Client2.exe.config
+D:\Study\WCF\MyDiskInfo\Client2\bin\Debug\Client2.exe
+D:\Study\WCF\MyDiskInfo\Client2\bin\Debug\Client2.pdb
+D:\Study\WCF\MyDiskInfo\Client2\obj\Debug\Client2.csprojResolveAssemblyReference.cache
+D:\Study\WCF\MyDiskInfo\Client2\obj\Debug\Client2.exe
+D:\Study\WCF\MyDiskInfo\Client2\obj\Debug\Client2.pdb
+D:\Study\GitHub\WCF\MyDiskInfo\Client2\bin\Debug\Client2.exe.config
+D:\Study\GitHub\WCF\MyDiskInfo\Client2\obj\Debug\Client2.exe
+D:\Study\GitHub\WCF\MyDiskInfo\Client2\obj\Debug\Client2.pdb
