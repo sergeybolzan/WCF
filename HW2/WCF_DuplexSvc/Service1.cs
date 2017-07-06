@@ -26,7 +26,7 @@ namespace WCF_DuplexSvc
         }
     }
 
-    /*метод SendTimeToCLient() будет вызван после обращения клиента к нашей службе. Он подождет до начала следующей минуты и начнет отправлять клиенту сообщения с периодичностью period миллисекунд, 
+    /*метод SendTimeToCLient() будет вызван после обращения клиента к нашей службе. Он подождет до начала следующей минуты и начнет отправлять клиенту сообщения с периодичностью period секунд, 
      * всего таких сообщений он отправит number. Каждое из этих сообщений доставляется клиенту методом ReceiveTime() */
 
     public class DataValues
@@ -53,10 +53,7 @@ namespace WCF_DuplexSvc
                     Thread.Sleep(period * 1000);
                     TimeSpan result = DateTime.Now - start;
                     TimeSpan r = result.Add(new TimeSpan(0, 0, s));
-                    callback.ReceiveTime(DateTime.Now.ToLongTimeString().ToString() +
-                    " время работы со службой - " +
-                    r.Minutes.ToString() + ":" +
-                    r.Seconds.ToString());
+                    callback.ReceiveTime(DateTime.Now.ToLongTimeString().ToString() + " время работы со службой - " + r.Minutes.ToString() + ":" + r.Seconds.ToString());
                 }
                 catch (Exception ex)
                 {

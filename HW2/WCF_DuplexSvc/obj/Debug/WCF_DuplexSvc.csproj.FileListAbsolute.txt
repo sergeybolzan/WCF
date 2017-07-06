@@ -7,6 +7,6 @@ d:\Study\WCF\Приложения к уроку 2\пример 13 служба\W
 D:\Study\GitHub\WCF\HW2\WCF_DuplexSvc\bin\Debug\WCF_DuplexSvc.dll.config
 D:\Study\GitHub\WCF\HW2\WCF_DuplexSvc\bin\Debug\WCF_DuplexSvc.dll
 D:\Study\GitHub\WCF\HW2\WCF_DuplexSvc\bin\Debug\WCF_DuplexSvc.pdb
-D:\Study\GitHub\WCF\HW2\WCF_DuplexSvc\obj\Debug\WCF_DuplexSvc.csprojResolveAssemblyReference.cache
 D:\Study\GitHub\WCF\HW2\WCF_DuplexSvc\obj\Debug\WCF_DuplexSvc.dll
 D:\Study\GitHub\WCF\HW2\WCF_DuplexSvc\obj\Debug\WCF_DuplexSvc.pdb
+D:\Study\GitHub\WCF\HW2\WCF_DuplexSvc\obj\Debug\WCF_DuplexSvc.csprojResolveAssemblyReference.cache

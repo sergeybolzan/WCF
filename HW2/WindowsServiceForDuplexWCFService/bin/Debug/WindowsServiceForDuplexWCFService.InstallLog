@@ -1,0 +1,390 @@
+﻿Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Предупреждение. Источник Service1 не зарегистрирован на локальном компьютере.
+Выполняется удаление службы Service1 из системы...
+При выполнении программы установки System.ServiceProcess.ServiceInstaller во время установки возникло исключение.
+System.ComponentModel.Win32Exception: Указанная служба не установлена
+При удалении из системы возникло исключение. Это исключение будет проигнорировано, и удаление из системы будет продолжено. Однако после завершения удаления данное приложение может оказаться не полностью удаленным.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Выполняется установка сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление сборки 'D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.InstallLog
+   assemblypath = D:\Study\GitHub\WCF\HW2\WindowsServiceForDuplexWCFService\bin\Debug\WindowsServiceForDuplexWCFService.exe
+Выполняется удаление источника EventLog Service1.
+Выполняется удаление службы Service1 из системы...
+Служба Service1 успешно удалена из системы.
+Попытка останова службы Service1.

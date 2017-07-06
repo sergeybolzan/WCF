@@ -7,3 +7,6 @@ D:\Study\WCF\Приложения к уроку 2\пример 13 клиент\W
 D:\Study\GitHub\WCF\HW2\WCF_DuplexClient\bin\Debug\WCF_DuplexClient.exe.config
 D:\Study\GitHub\WCF\HW2\WCF_DuplexClient\obj\Debug\WCF_DuplexClient.exe
 D:\Study\GitHub\WCF\HW2\WCF_DuplexClient\obj\Debug\WCF_DuplexClient.pdb
+D:\Study\GitHub\WCF\HW2\WCF_DuplexClient\bin\Debug\WCF_DuplexClient.exe
+D:\Study\GitHub\WCF\HW2\WCF_DuplexClient\bin\Debug\WCF_DuplexClient.pdb
+D:\Study\GitHub\WCF\HW2\WCF_DuplexClient\obj\Debug\WCF_DuplexClient.csprojResolveAssemblyReference.cache
