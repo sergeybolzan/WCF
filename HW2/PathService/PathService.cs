@@ -10,8 +10,15 @@ namespace PathService
 {
     public class MyPathService : IMyPathService
     {
-        public string GetFolderСontents(string path)
+        /// <summary>
+        /// Метод, который может вызывать клиент.
+        /// </summary>
+        /// <param name="path"></param>
+        public void GetFolderСontents(string path)
         {
+            // Член типа контракта обратного вызова. Используется для доступа к каналу обратного вызова, от службы к клиенту.
+            IClientCallback callback = OperationContext.Current.GetCallbackChannel<IClientCallback>();
+            
             if (Directory.Exists(path))
             {
                 string contents = "";
@@ -23,9 +30,9 @@ namespace PathService
                 {
                     contents += file + "\n";
                 }
-                return contents;
+                callback.GiveFolderContents(contents);
             }
-            else return "Каталога по указанному пути не существует";
+            else callback.GiveFolderContents("Каталога по указанному пути не существует");
         }
     }
 }

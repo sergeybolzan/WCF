@@ -42,13 +42,15 @@
   <wsdl:message name="IMyPathService_GetFolderСontents_InputMessage">
     <wsdl:part name="parameters" element="tns:GetFolderСontents" />
   </wsdl:message>
-  <wsdl:message name="IMyPathService_GetFolderСontents_OutputMessage">
-    <wsdl:part name="parameters" element="tns:GetFolderСontentsResponse" />
+  <wsdl:message name="IMyPathService_GiveFolderContents_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GiveFolderContents" />
   </wsdl:message>
   <wsdl:portType name="IMyPathService">
     <wsdl:operation name="GetFolderСontents">
       <wsdl:input wsaw:Action="http://tempuri.org/IMyPathService/GetFolderСontents" message="tns:IMyPathService_GetFolderСontents_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IMyPathService/GetFolderСontentsResponse" message="tns:IMyPathService_GetFolderСontents_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GiveFolderContents">
+      <wsdl:output wsaw:Action="http://tempuri.org/IMyPathService/GiveFolderContents" message="tns:IMyPathService_GiveFolderContents_OutputCallbackMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="NetTcpBinding_IMyPathService" type="tns:IMyPathService">
@@ -60,6 +62,9 @@
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="GiveFolderContents">
+      <soap12:operation soapAction="http://tempuri.org/IMyPathService/GiveFolderContents" style="document" />
       <wsdl:output>
         <soap12:body use="literal" />
       </wsdl:output>

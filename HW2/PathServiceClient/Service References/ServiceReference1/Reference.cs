@@ -12,14 +12,21 @@ namespace PathServiceClient.ServiceReference1 {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IMyPathService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IMyPathService", CallbackContract=typeof(PathServiceClient.ServiceReference1.IMyPathServiceCallback))]
     public interface IMyPathService {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyPathService/GetFolderСontents", ReplyAction="http://tempuri.org/IMyPathService/GetFolderСontentsResponse")]
-        string GetFolderСontents(string path);
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IMyPathService/GetFolderСontents")]
+        void GetFolderСontents(string path);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyPathService/GetFolderСontents", ReplyAction="http://tempuri.org/IMyPathService/GetFolderСontentsResponse")]
-        System.Threading.Tasks.Task<string> GetFolderСontentsAsync(string path);
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IMyPathService/GetFolderСontents")]
+        System.Threading.Tasks.Task GetFolderСontentsAsync(string path);
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public interface IMyPathServiceCallback {
+        
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IMyPathService/GiveFolderContents")]
+        void GiveFolderContents(string contents);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -28,32 +35,33 @@ namespace PathServiceClient.ServiceReference1 {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class MyPathServiceClient : System.ServiceModel.ClientBase<PathServiceClient.ServiceReference1.IMyPathService>, PathServiceClient.ServiceReference1.IMyPathService {
+    public partial class MyPathServiceClient : System.ServiceModel.DuplexClientBase<PathServiceClient.ServiceReference1.IMyPathService>, PathServiceClient.ServiceReference1.IMyPathService {
         
-        public MyPathServiceClient() {
+        public MyPathServiceClient(System.ServiceModel.InstanceContext callbackInstance) : 
+                base(callbackInstance) {
         }
         
-        public MyPathServiceClient(string endpointConfigurationName) : 
-                base(endpointConfigurationName) {
+        public MyPathServiceClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName) : 
+                base(callbackInstance, endpointConfigurationName) {
         }
         
-        public MyPathServiceClient(string endpointConfigurationName, string remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
+        public MyPathServiceClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName, string remoteAddress) : 
+                base(callbackInstance, endpointConfigurationName, remoteAddress) {
         }
         
-        public MyPathServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
+        public MyPathServiceClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(callbackInstance, endpointConfigurationName, remoteAddress) {
         }
         
-        public MyPathServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(binding, remoteAddress) {
+        public MyPathServiceClient(System.ServiceModel.InstanceContext callbackInstance, System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(callbackInstance, binding, remoteAddress) {
         }
         
-        public string GetFolderСontents(string path) {
-            return base.Channel.GetFolderСontents(path);
+        public void GetFolderСontents(string path) {
+            base.Channel.GetFolderСontents(path);
         }
         
-        public System.Threading.Tasks.Task<string> GetFolderСontentsAsync(string path) {
+        public System.Threading.Tasks.Task GetFolderСontentsAsync(string path) {
             return base.Channel.GetFolderСontentsAsync(path);
         }
     }

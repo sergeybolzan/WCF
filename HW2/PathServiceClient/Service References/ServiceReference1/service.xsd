@@ -7,10 +7,10 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="GetFolderСontentsResponse">
+  <xs:element name="GiveFolderContents">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="GetFolderСontentsResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="contents" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="32b47d91-e01c-446d-99c7-756fd746b09d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c925a800-5e54-4c88-9309-1f244d60e857" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,9 +22,9 @@
     <MetadataSource Address="net.tcp://localhost/PathService/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="88316b43-2a22-4fbe-a93b-07d091fd1b2a" SourceId="1" SourceUrl="net.tcp://localhost/PathService/mex" />
-    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="371d4521-a853-4abc-a6d0-987d05e8f56f" SourceId="1" SourceUrl="net.tcp://localhost/PathService/mex" />
-    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="49de9dd0-a3d3-410c-b98e-dffe76b1b180" SourceId="1" SourceUrl="net.tcp://localhost/PathService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="415868d9-47ce-4b41-906d-af120e5b42e6" SourceId="1" SourceUrl="net.tcp://localhost/PathService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="7452a1b6-6e5d-421e-b036-ea33b3a181bc" SourceId="1" SourceUrl="net.tcp://localhost/PathService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="8939e434-8b5c-4597-8c32-f940a3f7d4fe" SourceId="1" SourceUrl="net.tcp://localhost/PathService/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
