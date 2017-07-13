@@ -37,7 +37,6 @@ namespace ChatService
             new Thread(() => channel.DeleteUserFromList(name, false)).Start();
         }
 
-
         public void SendMessage(string name, string message)
         {
             foreach (var item in users.Values)
@@ -59,7 +58,5 @@ namespace ChatService
         {
             return users.Keys.ToArray();
         }
-
-
     }
 }

@@ -104,7 +104,6 @@ namespace ChatClientWPF
         }
 
         private RelayCommand leaveCommand;
-
         public RelayCommand LeaveCommand
         {
             get
@@ -139,8 +138,15 @@ namespace ChatClientWPF
             {
                 return sendMessageCommand ?? (sendPrivateMessageCommand = new RelayCommand(obj =>
                 {
-                    proxy.SendPrivateMessage(Name, Message, SelectedUser);
-                    Message = "";
+                    if (SelectedUser != null)
+                    {
+                        proxy.SendPrivateMessage(Name, Message, SelectedUser);
+                        Message = "";
+                    }
+                    else
+                    {
+                        MessageBox.Show("Не выбран получатель.");
+                    }
                 }));
             }
         }
