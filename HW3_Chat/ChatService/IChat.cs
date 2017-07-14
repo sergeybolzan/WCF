@@ -25,6 +25,7 @@ namespace ChatService
         [OperationContract]
         string[] GetNames();
     }
+
     public interface IClientCallback
     {
         [OperationContract(IsOneWay = true)]

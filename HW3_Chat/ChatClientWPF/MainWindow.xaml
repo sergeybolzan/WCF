@@ -20,17 +20,29 @@
     <DockPanel>
         <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="10,10,10,0">
             <Label>Введите имя:</Label>
-            <TextBox Text="{Binding Name}" IsReadOnly="{Binding ElementName=listOfUsers, Path=Items.IsEmpty, Converter={StaticResource invertBoolConverter}}" Width="150"></TextBox>
+            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding ElementName=listOfUsers, Path=Items.IsEmpty}" Width="150" Height="18">
+                <TextBox.InputBindings>
+                    <KeyBinding Command="{Binding JoinCommand}" Key="Enter"/>
+                </TextBox.InputBindings>
+            </TextBox>
             <Button Command="{Binding JoinCommand}" IsEnabled="{Binding ElementName=listOfUsers, Path=Items.IsEmpty}" Margin="10,0,0,0" Width="50" Content="Войти"></Button>
             <Button Command="{Binding LeaveCommand}" IsEnabled="{Binding Items.IsEmpty, ElementName=listOfUsers, Converter={StaticResource invertBoolConverter}}" Margin="10,0,0,0" Width="50" Content="Выйти"/>
         </StackPanel>
         <DockPanel DockPanel.Dock="Bottom">
-            <Button DockPanel.Dock="Right" IsEnabled="{Binding ElementName=listOfUsers, Path=Items.IsEmpty, Converter={StaticResource invertBoolConverter}}" Command="{Binding SendPrivateMessageCommand}" Height="30" Width="120" Margin="10,0,10,0">отправить личное</Button>
-            <Button DockPanel.Dock="Right" IsEnabled="{Binding ElementName=listOfUsers, Path=Items.IsEmpty, Converter={StaticResource invertBoolConverter}}" Command="{Binding SendMessageCommand}" Height="30" Width="120" Margin="10,0,10,0">отправить</Button>
-            <TextBox Text="{Binding Message}" IsReadOnly="{Binding ElementName=listOfUsers, Path=Items.IsEmpty}" Height="50" Margin="10" ></TextBox>
+            <Button DockPanel.Dock="Right" IsEnabled="{Binding ElementName=listOfUsers, Path=Items.IsEmpty, Converter={StaticResource invertBoolConverter}}" Command="{Binding SendPrivateMessageCommand}" Height="40" Width="120" Margin="10,0,10,0">
+                <TextBlock TextWrapping="Wrap" TextAlignment="Center">Отправить личное сообщение</TextBlock>
+            </Button>
+            <Button DockPanel.Dock="Right" IsEnabled="{Binding ElementName=listOfUsers, Path=Items.IsEmpty, Converter={StaticResource invertBoolConverter}}" Command="{Binding SendMessageCommand}" Height="40" Width="120" Margin="10,0,10,0">
+                <TextBlock TextWrapping="Wrap" TextAlignment="Center">Отправить сообщение</TextBlock>
+            </Button>
+            <TextBox Text="{Binding Message, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="{Binding ElementName=listOfUsers, Path=Items.IsEmpty}" local:FocusExtension.IsFocused="{Binding IsTextBoxMessageFocused}"  Height="50" Margin="10" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap">
+                <TextBox.InputBindings>
+                    <KeyBinding Command="{Binding SendMessageCommand}" Key="Enter"/>
+                </TextBox.InputBindings>
+            </TextBox>
         </DockPanel>
         <ListBox DockPanel.Dock="Right" ItemsSource="{Binding Users}" SelectedItem="{Binding SelectedUser}" Width="200" x:Name="listOfUsers" Margin="10">
         </ListBox>
-        <TextBox Text="{Binding TextOfChat}" Margin="10" IsReadOnly="True"></TextBox>
+        <TextBox Text="{Binding TextOfChat}" Margin="10" IsReadOnly="True" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" local:TextBoxBehaviour.ScrollOnTextChanged="true"></TextBox>
     </DockPanel>
 </Window>

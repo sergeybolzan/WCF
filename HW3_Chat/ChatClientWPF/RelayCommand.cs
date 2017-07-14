@@ -11,14 +11,12 @@ namespace ChatClientWPF
     public class RelayCommand : ICommand
     {
         #region Fields
-
         readonly Action<object> _execute;
         readonly Predicate<object> _canExecute;
-
         #endregion // Fields
 
-        #region Constructors
 
+        #region Constructors
         public RelayCommand(Action<object> execute)
             : this(execute, null)
         {
@@ -34,8 +32,8 @@ namespace ChatClientWPF
         }
         #endregion // Constructors
 
-        #region ICommand Members
 
+        #region ICommand Members
         [DebuggerStepThrough]
         public bool CanExecute(object parameter)
         {
@@ -52,7 +50,6 @@ namespace ChatClientWPF
         {
             _execute(parameter);
         }
-
         #endregion // ICommand Members
     }
 }

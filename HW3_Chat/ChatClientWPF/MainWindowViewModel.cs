@@ -53,7 +53,6 @@ namespace ChatClientWPF
         }
 
         private string textOfChat;
-
         public string TextOfChat
         {
             get { return textOfChat; }
@@ -65,7 +64,6 @@ namespace ChatClientWPF
         }
 
         private string selectedUser;
-
         public string SelectedUser
         {
             get { return selectedUser; }
@@ -73,9 +71,20 @@ namespace ChatClientWPF
             {
                 selectedUser = value;
                 OnPropertyChanged("SelectedUser");
+                UpdateTextBoxMessageFocus();
             }
         }
-        
+
+        private bool isTextBoxMessageFocused;
+        public bool IsTextBoxMessageFocused
+        {
+            get { return isTextBoxMessageFocused; }
+            set
+            {
+                isTextBoxMessageFocused = value;
+                OnPropertyChanged("IsTextBoxMessageFocused");
+            }
+        }
         #endregion
 
 
@@ -127,6 +136,7 @@ namespace ChatClientWPF
                     {
                         proxy.SendMessage(Name, Message);
                         Message = "";
+                        UpdateTextBoxMessageFocus();
                     }));
             }
         }
@@ -142,10 +152,12 @@ namespace ChatClientWPF
                     {
                         proxy.SendPrivateMessage(Name, Message, SelectedUser);
                         Message = "";
+                        UpdateTextBoxMessageFocus();
                     }
                     else
                     {
                         MessageBox.Show("Не выбран получатель.");
+                        UpdateTextBoxMessageFocus();
                     }
                 }));
             }
@@ -162,7 +174,6 @@ namespace ChatClientWPF
                     }));
             }
         }
-        
         #endregion
 
 
@@ -192,9 +203,15 @@ namespace ChatClientWPF
 
         public void PrintPrivateMessage(string nameFrom, string message, string nameTo)
         {
-            TextOfChat += string.Format("<{0} (личное {1})>: {2}\n", nameFrom, nameTo, message);
+            if (nameTo != Name)
+            {
+                TextOfChat += string.Format("<{0} (личное {1})>: {2}\n", nameFrom, nameTo, message);
+            }
+            else
+            {
+                TextOfChat += string.Format("<{0} (личное)>: {1}\n", nameFrom, message);
+            }
         }
-
         #endregion
 
 
@@ -206,5 +223,12 @@ namespace ChatClientWPF
                 PropertyChanged(this, new PropertyChangedEventArgs(prop));
         }
         #endregion
+
+
+        private void UpdateTextBoxMessageFocus()
+        {
+            IsTextBoxMessageFocused = false;
+            IsTextBoxMessageFocused = true;
+        }
     }
 }
