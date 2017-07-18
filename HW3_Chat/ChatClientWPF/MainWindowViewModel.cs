@@ -25,12 +25,18 @@ namespace ChatClientWPF
 
         #region Fields and properties
         private ObservableCollection<string> users;
+        /// <summary>
+        /// Коллекция активных пользователей
+        /// </summary>
         public ObservableCollection<string> Users
         {
             get { return users ?? (users = new ObservableCollection<string>()); }
         }
 
         private string name;
+        /// <summary>
+        /// Имя пользователя
+        /// </summary>
         public string Name
         {
             get { return name; }
@@ -42,6 +48,9 @@ namespace ChatClientWPF
         }
 
         private string message;
+        /// <summary>
+        /// Вводимое пользователем сообщение
+        /// </summary>
         public string Message
         {
             get { return message; }
@@ -53,6 +62,9 @@ namespace ChatClientWPF
         }
 
         private string textOfChat;
+        /// <summary>
+        /// Текст чата
+        /// </summary>
         public string TextOfChat
         {
             get { return textOfChat; }
@@ -64,6 +76,9 @@ namespace ChatClientWPF
         }
 
         private string selectedUser;
+        /// <summary>
+        /// Выбранный пользователь в списке
+        /// </summary>
         public string SelectedUser
         {
             get { return selectedUser; }
@@ -76,6 +91,9 @@ namespace ChatClientWPF
         }
 
         private bool isTextBoxMessageFocused;
+        /// <summary>
+        /// Свойство, отвечающее за фокус на текст, вводимый пользователем
+        /// </summary>
         public bool IsTextBoxMessageFocused
         {
             get { return isTextBoxMessageFocused; }
@@ -90,6 +108,9 @@ namespace ChatClientWPF
 
         #region Commands
         private RelayCommand joinCommand;
+        /// <summary>
+        /// Команда присоединения пользователя к чату. Осуществляется проверка на наличие и уникальность введенного имени пользователя, после чего вызывается метод службы Join().
+        /// </summary>
         public RelayCommand JoinCommand
         {
             get
@@ -113,6 +134,9 @@ namespace ChatClientWPF
         }
 
         private RelayCommand leaveCommand;
+        /// <summary>
+        /// Команда, вызывающая метод службы Leave(). Осуществляется выход пользователя из чата
+        /// </summary>
         public RelayCommand LeaveCommand
         {
             get
@@ -128,6 +152,9 @@ namespace ChatClientWPF
         }
 
         private RelayCommand sendMessageCommand;
+        /// <summary>
+        /// Отправка сообщения всем
+        /// </summary>
         public RelayCommand SendMessageCommand
         {
             get
@@ -142,6 +169,9 @@ namespace ChatClientWPF
         }
 
         private RelayCommand sendPrivateMessageCommand;
+        /// <summary>
+        /// Отправка приватного сообщения
+        /// </summary>
         public RelayCommand SendPrivateMessageCommand
         {
             get
@@ -164,6 +194,9 @@ namespace ChatClientWPF
         }
 
         private RelayCommand closeWindowCommand;
+        /// <summary>
+        /// Выход пользователя из чата при закрытии приложения
+        /// </summary>
         public RelayCommand CloseWindowCommand
         {
             get
@@ -178,6 +211,11 @@ namespace ChatClientWPF
 
 
         #region IChatCallback
+        /// <summary>
+        /// Метод, вызываемый службой. Происходит добавление нового пользователя в чат.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="showMessage"></param>
         public void AddUserToList(string name, bool showMessage)
         {
             Users.Add(name);
@@ -187,6 +225,11 @@ namespace ChatClientWPF
             }
         }
 
+        /// <summary>
+        /// Метод, вызываемый службой. Происходит удаление пользователя из чата.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="showMessage"></param>
         public void DeleteUserFromList(string name, bool showMessage)
         {
             Users.Remove(name);
@@ -196,11 +239,22 @@ namespace ChatClientWPF
             }
         }
 
+        /// <summary>
+        /// Метод, вызываемый службой. Происходит вывод сообщения в чат.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="message"></param>
         public void PrintMessage(string name, string message)
         {
             TextOfChat += string.Format("<{0}>: {1}\n", name, message);
         }
 
+        /// <summary>
+        /// Метод, вызываемый службой. Происходит вывод приватного сообщения в чат.
+        /// </summary>
+        /// <param name="nameFrom"></param>
+        /// <param name="message"></param>
+        /// <param name="nameTo"></param>
         public void PrintPrivateMessage(string nameFrom, string message, string nameTo)
         {
             if (nameTo != Name)
@@ -225,6 +279,9 @@ namespace ChatClientWPF
         #endregion
 
 
+        /// <summary>
+        /// Установка фокуса на вводимый пользователем текст.
+        /// </summary>
         private void UpdateTextBoxMessageFocus()
         {
             IsTextBoxMessageFocused = false;

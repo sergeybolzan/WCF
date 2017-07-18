@@ -20,7 +20,7 @@
     <DockPanel>
         <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="10,10,10,0">
             <Label>Введите имя:</Label>
-            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding ElementName=listOfUsers, Path=Items.IsEmpty}" Width="150" Height="18">
+            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding ElementName=listOfUsers, Path=Items.IsEmpty}" Width="150" Height="19">
                 <TextBox.InputBindings>
                     <KeyBinding Command="{Binding JoinCommand}" Key="Enter"/>
                 </TextBox.InputBindings>
